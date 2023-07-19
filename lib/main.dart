@@ -6,6 +6,7 @@ void main() async {
   // init the hive
   await Hive.initFlutter();
 //open a box
+  // ignore: unused_local_variable
   var box = await Hive.openBox('Mybox');
   runApp(const MyApp());
 }
